@@ -2,6 +2,9 @@ from setuptools import setup, find_packages
 
 from setup_ext import UpdateHTML5ShivCommand
 
+import multiprocessing
+import logging
+
 setup(
     name='tw2.util.html5shim',
     version='2.0.0a',
