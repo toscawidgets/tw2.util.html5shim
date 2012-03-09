@@ -1,2 +1,2 @@
-recursive-include tw2/util/static *
-recursive-include tw2/util/templates *
+recursive-include tw2/util/html5shim/static *
+recursive-include tw2/util/html5shim/templates *

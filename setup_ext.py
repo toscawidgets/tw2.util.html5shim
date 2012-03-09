@@ -52,7 +52,7 @@ class UpdateHTML5ShivCommand(SetupBuildCommand):
             js.write(data)
 
         # Update version.py
-        vs_file = "version_num = '{ver_num}'".format(ver_num=ver_num)
+        vs_file = "_version_num_ = '{ver_num}'".format(ver_num=ver_num)
 
         with open('tw2/util/html5shim/version.py', 'w') as vs_py:
             print "Writing new version.py"
