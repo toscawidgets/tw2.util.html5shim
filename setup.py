@@ -7,7 +7,7 @@ import logging
 
 setup(
     name='tw2.util.html5shim',
-    version='2.0.0a',
+    version='2.0.1',
     description='HTML5 Shim resource for TW2',
     author='Greg Jurman',
     author_email='gdj2214@rit.edu',
